@@ -30,6 +30,9 @@ node_modules
 # Bower
 assets/bower_components/
 
+# Public Files
+assets/public/
+
 # IDEs / Text Editors
 .idea/
 *.sublime-project
