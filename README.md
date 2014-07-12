@@ -8,6 +8,8 @@ npm install -g bower grunt-cli
 
 ```Shell
 npm install
+bower install
+grunt build
 ```
 
 ### Start app

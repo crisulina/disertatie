@@ -26,6 +26,14 @@ app.use(bodyParser.json({extended: true}));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(methodOverride());
 
+// Public Static Files Configuration
+// =============================================================================
+app.use(express.static(path.join(__dirname, 'assets', 'public')));
+
+// Routes Configuration
+// =============================================================================
+app.use('/', require('./routes/home'));
+
 // Server Configuration
 // =============================================================================
 var http = require('http').Server(app);
