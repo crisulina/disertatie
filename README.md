@@ -4,13 +4,13 @@
 npm install -g bower grunt-cli
 ```
 
-# Install dependencies
+### Install dependencies
 
 ```Shell
 npm install
 ```
 
-# Start app
+### Start app
 
 ```Shell
 node app.js
